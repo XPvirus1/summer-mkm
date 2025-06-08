@@ -29,8 +29,15 @@ sudo ln -sf /opt/julia-1.8.4/bin/julia /usr/local/bin/julia-1.8.4
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install notebook jupyter matplotlib
+pip install notebook jupyter matplotlib mpmath
 ```
+
+### Dependencies Explained
+- **matplotlib**: Plotting library used by PyPlot.jl for visualization
+- **mpmath**: Arbitrary-precision floating-point arithmetic library
+  - Required for handling the precise numerical calculations in kinetic modeling
+  - Used by Julia's DifferentialEquations.jl through Python interop
+  - Particularly important for rate constant calculations where numerical precision is critical
 
 3. Start Jupyter notebook server:
 ```bash

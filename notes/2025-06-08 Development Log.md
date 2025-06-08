@@ -31,6 +31,14 @@ Working with two key repositories:
    - Will serve as example for Julia-based kinetic modeling
    - Focus on static model aspects as per Dr. Getman's guidance
 
+### Python Dependencies
+Added key Python packages:
+- matplotlib: For visualization through PyPlot.jl
+- mpmath: For arbitrary-precision floating-point arithmetic
+  - Critical for precise rate constant calculations
+  - Used by Julia's differential equation solvers
+  - Helps prevent numerical instabilities in kinetic simulations
+
 ## Next Steps
 1. Run through ProgrammableOER example simulations
 2. Study static model implementation details
