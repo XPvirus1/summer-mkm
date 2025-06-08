@@ -30,3 +30,31 @@
 *.exe
 *.out
 *.app
+
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Julia specific
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+Manifest.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# Operating System Files
+.DS_Store
+Thumbs.db

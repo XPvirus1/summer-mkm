@@ -18,7 +18,7 @@ It is fine with me if you’d like to start June 9; however, I will not be here 
 
 In the meantime, here are some resources to get you started:
 
-- The microkinetic model that I want to convert to Julia is the one reported in [this paper](https://www.sciencedirect.com/science/article/pii/S0021951724002756#appSB). 
+- The microkinetic model that I want to convert to Julia is the one reported in [this paper](https://www.sciencedirect.com/science/article/pii/S0021951724002756#appSB). docs/TODO Active Sites...
   - This paper reports 4-6 different models; let’s do the “terrace aqueous” model only.
   - The student who worked on this paper used the [mkmcxx code](https://www.mkmcxx.nl/). I have several students in the group who have used that code. I will likely ask one of them to be the one to directly oversee your project.
   - A good first milestone is to replicate the results that Ricardo got using mkmcxx.
